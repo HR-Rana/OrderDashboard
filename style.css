@@ -3,16 +3,26 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    font-weight: 600;
+    
+}
+
+.Order-status-Lists{
+    width: 90%;
+}
+.Order-status-Lists li{
+    font-size: 14px;
 }
 
 .accordion-button::after {
     display: none;
 }
 
-.tab-pane {
+.Orders-section {
     background-color: rgb(223, 223, 223);
     padding: 50px 0;
+    padding-bottom: 120px;
 }
 
 
@@ -68,15 +78,57 @@ a {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.Confirmed {
+.refund {
     width: 16px;
     height: 16px;
-    background-color: rgb(2, 123, 37);
+    background-color: rgb(1, 1, 1);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.return {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 17, 180);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.transit {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(157, 218, 1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Confirmed {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(10, 0, 206);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.deliverd{
+  width: 16px;
+    height: 16px;
+    background-color: rgb(5, 149, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
 }
 .Cancelled {
     width: 16px;
@@ -109,8 +161,8 @@ a {
     margin: auto auto;
 }
 .heading .product img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 .heading .right-site{
